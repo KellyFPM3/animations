@@ -4,6 +4,7 @@
 
 2. Enqueue the JS and CSS for the animations by adding the following code to the functions.php file:
 
+```
 	function register_fpm3_animations($hook) {
 		wp_enqueue_script('WOW-js', get_template_directory_uri() . '/js/WOW.js','','',true); // Required for animations
 		wp_enqueue_script('fpm3-template-js', get_template_directory_uri() . '/js/fpm3-template.js','','',true);
@@ -11,6 +12,7 @@
 	}
 
 	add_action('wp_enqueue_scripts', 'register_fpm3_animations');
+```
 
 3. Add these classes to the elements of the page that you want to animate: wow flipInY
 
