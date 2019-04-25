@@ -2,7 +2,7 @@
 
 1. Add the CSS and JS folders to your theme directory.
 
-2. Enqueue the JS and CSS for the animations by adding the following code to the functions.php file:
+2. Enqueue the JS and CSS for the animations by adding the following code to the **functions.php** file in your template:
 
 ```
 function register_fpm3_animations($hook) {
