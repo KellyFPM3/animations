@@ -7,7 +7,7 @@
 ```
 function register_fpm3_animations($hook) {
 	wp_enqueue_script('WOW-js', get_template_directory_uri() . '/js/WOW.js','','',true); // Required for animations
-	wp_enqueue_script('fpm3-template-js', get_template_directory_uri() . '/js/animations.js','','',true);
+	wp_enqueue_script('fpm3-animations-js', get_template_directory_uri() . '/js/animations.js','','',true);
 	wp_enqueue_style('animate-css', get_template_directory_uri() . '/css/animate.css');
 }
 
